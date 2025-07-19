@@ -2,7 +2,7 @@
 
 An interactive GitHub visualizer with a dashboard, 3D repo map, and shareable portfolio card.
 
-## ✨ Features
+##  Features
 
 - **Interactive Dashboard**: View GitHub profile statistics with animated charts
 - **3D Repository Map**: Explore repositories in an interactive 3D space using Three.js
@@ -11,7 +11,7 @@ An interactive GitHub visualizer with a dashboard, 3D repo map, and shareable po
 - **Real-time Data**: Fetches live data from GitHub API
 - **Responsive Design**: Works on desktop and mobile devices
 
-## 🖌️ Polished UI & Animations
+## Polished UI & Animations
 
 - **Framer Motion** for smooth, spring-based animations
 - **Animated search bar** and button with loading spinner
@@ -21,7 +21,7 @@ An interactive GitHub visualizer with a dashboard, 3D repo map, and shareable po
 - **Modern gradients, rounded corners, and shadows**
 - **Responsive and mobile-friendly**
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -30,7 +30,7 @@ An interactive GitHub visualizer with a dashboard, 3D repo map, and shareable po
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Ajeet-kumar-07/Github-visualize
    cd github-visualizer
    ```
 2. **Install dependencies:**
@@ -51,18 +51,18 @@ An interactive GitHub visualizer with a dashboard, 3D repo map, and shareable po
    ```
 5. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
 
-## 🧑‍💻 Usage
+##  Usage
 1. Enter a GitHub username in the input field
 2. Click the **Search** button
 3. View the interactive dashboard with profile statistics
 4. Explore repositories in the 3D visualization
 
-## 🛡️ API Rate Limiting
+##  API Rate Limiting
 - **Without a token:** 60 requests/hour (shared across all users on your IP)
 - **With a token:** 5000 requests/hour (per user)
 - If you see a rate limit error, either wait 1 hour or add a GitHub token as described above
 
-## 🗂️ Project Structure
+##  Project Structure
 ```
 ├── components/
 │   ├── Dashboard.js      # Main dashboard component (animated)
@@ -79,31 +79,30 @@ An interactive GitHub visualizer with a dashboard, 3D repo map, and shareable po
 └── package.json
 ```
 
-## 🏆 UI/UX Highlights
+## UI/UX Highlights
 - **Gradient backgrounds** and modern color palette
 - **Animated cards** and popups for stats and repo details
 - **Smooth transitions** for all interactive elements
 - **Responsive layout** for all devices
 - **Clear error and loading states**
 
-## 🧩 Tech Stack
+##  Tech Stack
 - **Frontend:** Next.js 14, React 18, Tailwind CSS
 - **3D Graphics:** Three.js, React Three Fiber, Drei
 - **Charts:** Chart.js, React Chart.js 2
 - **Animations:** Framer Motion
 - **API:** GitHub REST API
 
-## 🤝 Contributing
+##  Contributing
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-MIT License - see LICENSE file for details
 
-## 🙏 Acknowledgments
+
+##  Acknowledgments
 - GitHub API for providing user data
 - Three.js community for 3D graphics
 - Chart.js for data visualization
